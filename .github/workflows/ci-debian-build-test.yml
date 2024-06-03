@@ -13,9 +13,10 @@ jobs:
         container:
           - 'debian:sid'
           - 'debian:stable'
+          - 'debian:bullseye'
           - 'ubuntu:devel'
+          - 'ubuntu:noble'
           - 'ubuntu:focal'
-          - 'ubuntu:bionic'
     timeout-minutes: 15
     steps:
       - name: Git checkout

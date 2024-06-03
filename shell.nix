@@ -53,7 +53,7 @@ pkgs.mkShell {
     libsass
     ninja
     notmuch
-    pkgconfig
+    pkg-config
     python3
     python3Packages.pygobject3
     ronn
@@ -61,6 +61,6 @@ pkgs.mkShell {
     wrapGAppsHook
   ];
 
-  LIBCLANG_PATH   = "${pkgs.llvmPackages.libclang}/lib";
+  #LIBCLANG_PATH   = "${pkgs.llvmPackages.libclang}/lib";
 }
 
